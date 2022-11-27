@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../todaysoccer/css/login.css">
+
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <a href="../todaysoccer/login.html"><h2 class="inactive"> 로그인 </h2></a>
+      <a href="../todaysoccer/signup.html"><h2 class="active"> 회원가입 </h2></a>
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="../todaysoccer/img/user.png" id="icon" alt="User Icon" />
+      </div>
+  
+      <!-- Login Form -->
+      <form action="../todaysoccer/signup.php" method="post" enctype="multipart/form-data">
+        <input type="text" id="userID" class="fadeIn second" name="userID" placeholder="아이디">
+        <input type="password" id="userPassword" class="fadeIn third" name="userPassword" placeholder="비밀번호">
+        <input type="text" id="userName" class="fadeIn fourth" name="userName" placeholder="이름">
+        <input type="text" id="userMobile" class="fadeIn fifth" name="userMobile" placeholder="전화번호">
+        <input type="submit" class="fadeIn sixth" value="Log In">
+      </form>
+    </div>
+  </div>
+    
+</body>
+</html>

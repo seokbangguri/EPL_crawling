@@ -1,0 +1,119 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #56baed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav {
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+}
+.logo {
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#container {
+    height: 100%;
+    background-color: #56baed;
+    display:flex;
+    justify-content: center;
+}
+#ranking {
+    background-color: #fff;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    max-width: 450px;
+    height: 70%;
+    margin-top: 70px;
+    overflow: auto;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+#ranktable {
+    font-size: 13px;
+    margin: auto;
+    border-collapse: collapse;
+}
+#ranktable td,th {
+    text-align: center;
+    padding: 3px;
+    padding-left: 7px;
+}
+#cheer,#user {
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+#myteam {
+    display: inline-block;
+}
+#cteamlogo {
+    max-height: 100px;
+    margin-top: 10px;
+}
+#news {
+    display: inline-block;
+}
+#newstable{
+    border-collapse: collapse;
+    overflow: auto;
+}
+#newstable th,td {
+    border: 1px solid gray;
+}
+
+#bottomnav {
+    background-color: #fff;
+
+    position: fixed;
+    bottom: 0;
+}
+#bottomimg {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottomnav a{
+    width: 13%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottomnav img {
+    width: 100%;
+}
+#bottomtext {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#bottomtext p {
+    width: 15%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    text-align: center;
+}
